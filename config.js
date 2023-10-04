@@ -1,3 +1,1 @@
-const config = {
-  apiKey: "password123",
-};
+const apiKey = "password123";
