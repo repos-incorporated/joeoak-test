@@ -1,0 +1,29 @@
+name: Request Form
+description: Make a request
+title: "[Request]: "
+labels: ["help-wanted"]
+assignees:
+  - joeoak
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill out this form to submit a request.
+  - type: dropdown
+    id: justification
+    attributes:
+      label: Provide a justification
+      options:
+        - It's used in tests
+        - It's a false positive
+        - I'll fix it later
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: Add a comment
+      placeholder: Add a comment
+    validations:
+      required: true
