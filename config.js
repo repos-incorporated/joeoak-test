@@ -1,1 +1,1 @@
-const apiKey = "octocat_token_abc123";
+const apiKey = "octocat_token_123abc";
