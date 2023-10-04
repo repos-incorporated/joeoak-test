@@ -1,1 +1,2 @@
-const apiKey = "octocat_token_123abc";
+const octocatToken = "octocat_token_abc123";
+const figmaToken = "figma_pat_abc123";
